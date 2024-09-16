@@ -11,5 +11,5 @@ pluginManagement {
 //                password = System.getProperty("hexlet_artifactory_password")
 //            }
 //        }
-//    }
+    }
 }
