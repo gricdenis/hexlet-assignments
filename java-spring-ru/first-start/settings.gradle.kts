@@ -4,12 +4,12 @@ rootProject.name = "SpringBootApplication"
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        maven {
-            url = uri(System.getProperty("hexlet_artifactory_plugin_url"))
-            credentials {
-                username = System.getProperty("hexlet_artifactory_user")
-                password = System.getProperty("hexlet_artifactory_password")
-            }
-        }
-    }
+//        maven {
+//            url = uri(System.getProperty("hexlet_artifactory_plugin_url"))
+//            credentials {
+//                username = System.getProperty("hexlet_artifactory_user")
+//                password = System.getProperty("hexlet_artifactory_password")
+//            }
+//        }
+//    }
 }

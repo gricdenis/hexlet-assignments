@@ -19,13 +19,13 @@ application { mainClass.set("exercise.Application") }
 
 repositories {
     mavenCentral()
-    maven {
-        url = uri(System.getProperty("hexlet_artifactory_url"))
-        credentials {
-            username = System.getProperty("hexlet_artifactory_user")
-            password = System.getProperty("hexlet_artifactory_password")
-        }
-    }
+//    maven {
+//        url = uri(System.getProperty("hexlet_artifactory_url"))
+//        credentials {
+//            username = System.getProperty("hexlet_artifactory_user")
+//            password = System.getProperty("hexlet_artifactory_password")
+//        }
+//    }
 }
 
 dependencies {
