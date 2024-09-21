@@ -64,6 +64,5 @@ public class Application {
     public void destroy(@PathVariable String id) {
         posts.removeIf(p -> p.getId().equals(id));
     }
-
     // END
 }
